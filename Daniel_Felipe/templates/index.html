@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Heatmap with Leaflet</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Leaflet JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Leaflet Heat JavaScript -->
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 100vh;"></div>
+
+    <script>
+        // Inicializar el mapa
+        var map = L.map('map').setView([6.244756, -75.679238], 12);
+
+        // Cargar el mapa base
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Función para cargar los datos del JSON
+        fetch('/data')
+            .then(response => response.json())
+            .then(data => {
+                var heatData = data.map(function(d) {
+                    return [d.latitude, d.longitude, d.quantity_products];
+                });
+
+                // Crear el Heatmap
+                L.heatLayer(heatData, {radius: 15}).addTo(map);
+            });
+    </script>
+</body>
+</html>
