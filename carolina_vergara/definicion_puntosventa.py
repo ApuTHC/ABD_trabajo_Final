@@ -1,5 +1,6 @@
-from geopy.geocoders import Nominatim
+import json
 import random
+from geopy.geocoders import Nominatim
 
 # Definir las coordenadas aproximadas de Medellín
 lat_range = (6.217, 6.317)  # Latitud de Medellín
@@ -24,12 +25,12 @@ def generate_valid_points(n):
         lon = round(random.uniform(*lon_range), 6)
         comuna, barrio = get_location_info(lat, lon)
         if comuna != 'No encontrado' and barrio != 'No encontrado':
-            valid_points.append((lat, lon, comuna, barrio))
+            valid_points.append({"latitude": lat, "longitude": lon, "commune": comuna, "neighborhood": barrio})
     return valid_points
 
-# Generar 100 puntos válidos
+# Generar y guardar 100 puntos válidos
 points_of_sale = generate_valid_points(100)
 
-# Imprimir puntos válidos
-for point in points_of_sale:
-    print(point)
+with open('valid_points.json', 'w') as file:
+    json.dump(points_of_sale, file)
+

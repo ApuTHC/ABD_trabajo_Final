@@ -7,37 +7,15 @@ import pytz
 from geopy.geocoders import Nominatim
 from meteostat import Point, Hourly
 
-# Definir las coordenadas aproximadas de Medellín
-lat_range = (6.217, 6.317)  # Latitud de Medellín
-lon_range = (-75.567, -75.467)  # Longitud de Medellín
-
-# Inicializar el geolocalizador
-geolocator = Nominatim(user_agent="medellin_locator")
-
-# Función para obtener la comuna y barrio según las coordenadas
-def get_location_info(latitude, longitude):
-    location = geolocator.reverse((latitude, longitude), language='es')
-    address = location.raw['address']
-    comuna = address.get('suburb', 'No encontrado')
-    barrio = address.get('neighbourhood', 'No encontrado')
-    return comuna, barrio
-
-# Generar puntos de venta únicos
-def generate_valid_points(n):
-    valid_points = []
-    while len(valid_points) < n:
-        lat = round(random.uniform(*lat_range), 6)
-        lon = round(random.uniform(*lon_range), 6)
-        comuna, barrio = get_location_info(lat, lon)
-        if comuna != 'No encontrado' and barrio != 'No encontrado':
-            valid_points.append((lat, lon, comuna, barrio))
-    return valid_points
-
-# Generar 100 puntos válidos
-points_of_sale = generate_valid_points(100)
+# Cargar puntos de venta válidos desde el archivo JSON
+with open('valid_points.json', 'r') as file:
+    points_of_sale = json.load(file)
 
 # Generar 200 empleados, 2 por cada punto de venta
 employees = {i: (f"Employee_{i*2+1}", f"Employee_{i*2+2}") for i in range(100)}
+
+# Inicializar el geolocalizador
+geolocator = Nominatim(user_agent="medellin_locator")
 
 # Función para obtener la temperatura actual
 def get_current_temperature(latitude, longitude):
@@ -52,12 +30,15 @@ def get_current_temperature(latitude, longitude):
 # Generar cantidad de productos en función de la temperatura
 def generate_quantity_products(temperature):
     # Normalizar la temperatura entre un rango de 0 y 1
-    temp_min, temp_max = 18, 30  # Rango de temperaturas en °C
+    temp_min, temp_max = 18, 24  # Rango de temperaturas en °C
     normalized_temp = (temperature - temp_min) / (temp_max - temp_min)
     
     # Generar la cantidad de productos basada en la temperatura normalizada
     min_quantity, max_quantity = 1, 50
-    quantity = int(normalized_temp * (max_quantity - min_quantity) + min_quantity)
+    mean_quantity = normalized_temp * (max_quantity - min_quantity) + min_quantity
+    
+    # Añadir variabilidad a la cantidad de productos
+    quantity = int(random.gauss(mean_quantity,10))  # Usar una desviación estándar de 10
     
     # Asegurar que la cantidad esté dentro del rango permitido
     return max(min(quantity, max_quantity), min_quantity)
@@ -67,19 +48,19 @@ def generate_event(pos_index):
     pos = points_of_sale[pos_index]
     worker = employees[pos_index]
     date_now = datetime.now(pytz.timezone('America/Bogota'))
-    temperature = get_current_temperature(pos[0], pos[1])
+    temperature = get_current_temperature(pos["latitude"], pos["longitude"])
     quantity_products = generate_quantity_products(temperature)
     
     event = {
-        "latitude": pos[0],
-        "longitude": pos[1],
+        "latitude": pos["latitude"],
+        "longitude": pos["longitude"],
         "date": date_now.strftime("%d/%m/%Y %H:%M:%S"),
         "customer_id": random.randint(1000, 2000),
         "employee_id": worker[0] if date_now.weekday() < 5 else worker[1],  # Lunes a Viernes / Fines de Semana
         "quantity_products": quantity_products,
         "order_id": str(uuid.uuid4()),
-        "commune": pos[2],
-        "neighborhood": pos[3],
+        "commune": pos["commune"],
+        "neighborhood": pos["neighborhood"],
         "partition_date": date_now.strftime("%d%m%Y"),
         "event_date": date_now.strftime("%d/%m/%Y %H:%M:%S"),
         "event_day": date_now.day,
@@ -95,8 +76,9 @@ def generate_event(pos_index):
 def main():
     for i in range(100):
         event = generate_event(i)
-        
-        with open('simulated_data2.json', 'a') as file:
+        # Aquí se puede guardar el evento en un archivo JSON, base de datos, etc.
+        # Ejemplo de guardado en un archivo JSON
+        with open('simulated_temp.json', 'a') as file:
             file.write(json.dumps(event) + "\n")
         # Esperar 1 segundo antes de generar el siguiente evento
         time.sleep(1)
