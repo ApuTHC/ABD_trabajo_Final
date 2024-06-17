@@ -81,7 +81,7 @@ def main():
         with open('simulated_temp.json', 'a') as file:
             file.write(json.dumps(event) + "\n")
         # Esperar 1 segundo antes de generar el siguiente evento
-        time.sleep(1)
+        time.sleep(10)
 
 if __name__ == "__main__":
     main()
