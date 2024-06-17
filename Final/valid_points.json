@@ -1,0 +1,501 @@
+[{
+    "latitude": 6.247303,
+    "longitude": -75.552002,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "Enciso"
+}, {
+    "latitude": 6.254075,
+    "longitude": -75.579864,
+    "commune": "Comuna 11 - Laureles-Estadio",
+    "neighborhood": "Suramericana"
+}, {
+    "latitude": 6.272651,
+    "longitude": -75.579955,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Cerro El Volador"
+}, {
+    "latitude": 6.246319,
+    "longitude": -75.552374,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "Sucre"
+}, {
+    "latitude": 6.241956,
+    "longitude": -75.566376,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Las Palmas"
+}, {
+    "latitude": 6.299272,
+    "longitude": -75.568258,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Girardot"
+}, {
+    "latitude": 6.248305,
+    "longitude": -75.57476,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Guayaquil"
+}, {
+    "latitude": 6.221507,
+    "longitude": -75.612061,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "Altavista"
+}, {
+    "latitude": 6.263514,
+    "longitude": -75.595919,
+    "commune": "Comuna 11 - Laureles-Estadio",
+    "neighborhood": "Estadio"
+}, {
+    "latitude": 6.189189,
+    "longitude": -75.569216,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "El Castillo"
+}, {
+    "latitude": 6.223593,
+    "longitude": -75.600717,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "La Gloria"
+}, {
+    "latitude": 6.252147,
+    "longitude": -75.597565,
+    "commune": "Comuna 12 - La Am\u00e9rica",
+    "neighborhood": "Los Pinos"
+}, {
+    "latitude": 6.300555,
+    "longitude": -75.584176,
+    "commune": "Comuna 6 - Doce de Octubre",
+    "neighborhood": "Picachito"
+}, {
+    "latitude": 6.20186,
+    "longitude": -75.590303,
+    "commune": "Comuna 15 - Guayabal",
+    "neighborhood": "Guayabal"
+}, {
+    "latitude": 6.304213,
+    "longitude": -75.57987,
+    "commune": "Comuna 6 - Doce de Octubre",
+    "neighborhood": "Doce de Octubre No. 2"
+}, {
+    "latitude": 6.22798,
+    "longitude": -75.562233,
+    "commune": "Comuna 9 - Buenos Aires",
+    "neighborhood": "La Asomadera No. 1"
+}, {
+    "latitude": 6.275166,
+    "longitude": -75.552826,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Campo Vald\u00e9s No.2"
+}, {
+    "latitude": 6.264991,
+    "longitude": -75.550145,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Manrique Oriental"
+}, {
+    "latitude": 6.262357,
+    "longitude": -75.539421,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Versalles No. 2"
+}, {
+    "latitude": 6.208426,
+    "longitude": -75.575002,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Astorga"
+}, {
+    "latitude": 6.265174,
+    "longitude": -75.54,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Versalles No. 2"
+}, {
+    "latitude": 6.216504,
+    "longitude": -75.559771,
+    "commune": "Comuna 9 - Buenos Aires",
+    "neighborhood": "La Asomadera No. 3"
+}, {
+    "latitude": 6.262589,
+    "longitude": -75.551095,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Manrique Oriental"
+}, {
+    "latitude": 6.198127,
+    "longitude": -75.564681,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Alejandr\u00eda"
+}, {
+    "latitude": 6.19411,
+    "longitude": -75.564301,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Los Naranjos"
+}, {
+    "latitude": 6.306291,
+    "longitude": -75.554006,
+    "commune": "Comuna 2 - Santa Cruz",
+    "neighborhood": "Play\u00f3n de Los Comuneros"
+}, {
+    "latitude": 6.306455,
+    "longitude": -75.551208,
+    "commune": "Comuna 2 - Santa Cruz",
+    "neighborhood": "Play\u00f3n de Los Comuneros"
+}, {
+    "latitude": 6.274492,
+    "longitude": -75.578497,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "El Progreso"
+}, {
+    "latitude": 6.297175,
+    "longitude": -75.561618,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Villa Niza"
+}, {
+    "latitude": 6.199302,
+    "longitude": -75.581414,
+    "commune": "Comuna 15 - Guayabal",
+    "neighborhood": "Guayabal"
+}, {
+    "latitude": 6.246219,
+    "longitude": -75.540892,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "Trece de Noviembre"
+}, {
+    "latitude": 6.282705,
+    "longitude": -75.554285,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "La Pi\u00f1uela"
+}, {
+    "latitude": 6.283677,
+    "longitude": -75.560816,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "San Isidro"
+}, {
+    "latitude": 6.279615,
+    "longitude": -75.569002,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Caribe"
+}, {
+    "latitude": 6.294759,
+    "longitude": -75.538515,
+    "commune": "Comuna 1 - Popular",
+    "neighborhood": "La Avanzada"
+}, {
+    "latitude": 6.277438,
+    "longitude": -75.616779,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Santa Margarita"
+}, {
+    "latitude": 6.222324,
+    "longitude": -75.575515,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Colombia"
+}, {
+    "latitude": 6.23006,
+    "longitude": -75.564677,
+    "commune": "Comuna 9 - Buenos Aires",
+    "neighborhood": "La Asomadera No. 1"
+}, {
+    "latitude": 6.275929,
+    "longitude": -75.558404,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "Brasilia"
+}, {
+    "latitude": 6.24697,
+    "longitude": -75.576445,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Coraz\u00f3n de Jes\u00fas"
+}, {
+    "latitude": 6.288045,
+    "longitude": -75.576053,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Francisco Antonio Zea"
+}, {
+    "latitude": 6.253978,
+    "longitude": -75.546482,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "La Ladera"
+}, {
+    "latitude": 6.292807,
+    "longitude": -75.539512,
+    "commune": "Comuna 1 - Popular",
+    "neighborhood": "La Avanzada"
+}, {
+    "latitude": 6.29142,
+    "longitude": -75.563338,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "Palermo"
+}, {
+    "latitude": 6.236405,
+    "longitude": -75.596561,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "El Nogal - Los Almendros"
+}, {
+    "latitude": 6.181855,
+    "longitude": -75.563697,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "San Lucas"
+}, {
+    "latitude": 6.299093,
+    "longitude": -75.561834,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Villa Niza"
+}, {
+    "latitude": 6.20148,
+    "longitude": -75.582994,
+    "commune": "Comuna 15 - Guayabal",
+    "neighborhood": "Guayabal"
+}, {
+    "latitude": 6.197278,
+    "longitude": -75.572174,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Los Balsos No. 2"
+}, {
+    "latitude": 6.235,
+    "longitude": -75.531809,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "Villa Turbay"
+}, {
+    "latitude": 6.269891,
+    "longitude": -75.54,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "La Cruz"
+}, {
+    "latitude": 6.274106,
+    "longitude": -75.569566,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "Moravia"
+}, {
+    "latitude": 6.250412,
+    "longitude": -75.593722,
+    "commune": "Comuna 11 - Laureles-Estadio",
+    "neighborhood": "Florida Nueva"
+}, {
+    "latitude": 6.287216,
+    "longitude": -75.557562,
+    "commune": "Comuna 4 - Aranjuez",
+    "neighborhood": "San Isidro"
+}, {
+    "latitude": 6.197511,
+    "longitude": -75.57007,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Los Balsos No. 2"
+}, {
+    "latitude": 6.24378,
+    "longitude": -75.587462,
+    "commune": "Comuna 11 - Laureles-Estadio",
+    "neighborhood": "San Joaqu\u00edn"
+}, {
+    "latitude": 6.283395,
+    "longitude": -75.54913,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "La Salle"
+}, {
+    "latitude": 6.243897,
+    "longitude": -75.608053,
+    "commune": "Comuna 12 - La Am\u00e9rica",
+    "neighborhood": "Santa Teresita"
+}, {
+    "latitude": 6.212283,
+    "longitude": -75.60149,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "El Rinc\u00f3n"
+}, {
+    "latitude": 6.288934,
+    "longitude": -75.540244,
+    "commune": "Comuna 1 - Popular",
+    "neighborhood": "Carpinelo"
+}, {
+    "latitude": 6.254106,
+    "longitude": -75.577412,
+    "commune": "Comuna 11 - Laureles-Estadio",
+    "neighborhood": "Carlos E. Restrepo"
+}, {
+    "latitude": 6.261299,
+    "longitude": -75.56005,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Prado"
+}, {
+    "latitude": 6.195311,
+    "longitude": -75.567516,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Los Balsos No. 2"
+}, {
+    "latitude": 6.237971,
+    "longitude": -75.56206,
+    "commune": "Comuna 9 - Buenos Aires",
+    "neighborhood": "El Salvador"
+}, {
+    "latitude": 6.281129,
+    "longitude": -75.579303,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "C\u00f3rdoba"
+}, {
+    "latitude": 6.242847,
+    "longitude": -75.57645,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Calle Nueva"
+}, {
+    "latitude": 6.287495,
+    "longitude": -75.598692,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Monteclaro"
+}, {
+    "latitude": 6.274083,
+    "longitude": -75.578471,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "El Progreso"
+}, {
+    "latitude": 6.281698,
+    "longitude": -75.606687,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Pajarito"
+}, {
+    "latitude": 6.200162,
+    "longitude": -75.596461,
+    "commune": "Comuna 15 - Guayabal",
+    "neighborhood": "La Colina"
+}, {
+    "latitude": 6.2729,
+    "longitude": -75.596582,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Robledo"
+}, {
+    "latitude": 6.243605,
+    "longitude": -75.546786,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "El Pinal"
+}, {
+    "latitude": 6.184468,
+    "longitude": -75.565485,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "San Lucas"
+}, {
+    "latitude": 6.242536,
+    "longitude": -75.541115,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "La Libertad"
+}, {
+    "latitude": 6.224241,
+    "longitude": -75.569171,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Colombia"
+}, {
+    "latitude": 6.223835,
+    "longitude": -75.598557,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "San Bernardo"
+}, {
+    "latitude": 6.2807,
+    "longitude": -75.5408,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "Mar\u00eda Cano - Carambolas"
+}, {
+    "latitude": 6.28873,
+    "longitude": -75.574111,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Francisco Antonio Zea"
+}, {
+    "latitude": 6.300426,
+    "longitude": -75.562256,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Boyac\u00e1"
+}, {
+    "latitude": 6.29336,
+    "longitude": -75.593375,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Aures No.2"
+}, {
+    "latitude": 6.247557,
+    "longitude": -75.612246,
+    "commune": "Comuna 12 - La Am\u00e9rica",
+    "neighborhood": "Santa M\u00f3nica"
+}, {
+    "latitude": 6.279807,
+    "longitude": -75.598029,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Palenque"
+}, {
+    "latitude": 6.308441,
+    "longitude": -75.561151,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Las Brisas"
+}, {
+    "latitude": 6.228402,
+    "longitude": -75.614504,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "Las Violetas"
+}, {
+    "latitude": 6.308919,
+    "longitude": -75.56657,
+    "commune": "Comuna 5 - Castilla",
+    "neighborhood": "Florencia"
+}, {
+    "latitude": 6.284093,
+    "longitude": -75.587026,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "El Diamante"
+}, {
+    "latitude": 6.282406,
+    "longitude": -75.604587,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Pajarito"
+}, {
+    "latitude": 6.274649,
+    "longitude": -75.588547,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Villa Flora"
+}, {
+    "latitude": 6.228152,
+    "longitude": -75.585028,
+    "commune": "Comuna 15 - Guayabal",
+    "neighborhood": "Trinidad"
+}, {
+    "latitude": 6.279483,
+    "longitude": -75.577363,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "C\u00f3rdoba"
+}, {
+    "latitude": 6.229184,
+    "longitude": -75.557092,
+    "commune": "Comuna 9 - Buenos Aires",
+    "neighborhood": "Loreto"
+}, {
+    "latitude": 6.209,
+    "longitude": -75.55,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "Altos del Poblado"
+}, {
+    "latitude": 6.185082,
+    "longitude": -75.569277,
+    "commune": "Comuna 14 - El Poblado",
+    "neighborhood": "El Diamante No. 2"
+}, {
+    "latitude": 6.279519,
+    "longitude": -75.601505,
+    "commune": "Comuna 7 - Robledo",
+    "neighborhood": "Cucaracho"
+}, {
+    "latitude": 6.277619,
+    "longitude": -75.54621,
+    "commune": "Comuna 3 - Manrique",
+    "neighborhood": "San Jos\u00e9 La Cima No. 2"
+}, {
+    "latitude": 6.259452,
+    "longitude": -75.56489,
+    "commune": "Comuna 10 - La Candelaria",
+    "neighborhood": "Jes\u00fas Nazareno"
+}, {
+    "latitude": 6.289859,
+    "longitude": -75.538433,
+    "commune": "Comuna 1 - Popular",
+    "neighborhood": "Carpinelo"
+}, {
+    "latitude": 6.20541,
+    "longitude": -75.596789,
+    "commune": "Comuna 16 - Bel\u00e9n",
+    "neighborhood": "La Mota"
+}, {
+    "latitude": 6.232705,
+    "longitude": -75.528248,
+    "commune": "Comuna 8 - Villa Hermosa",
+    "neighborhood": "La Sierra"
+}, {
+    "latitude": 6.303634,
+    "longitude": -75.573789,
+    "commune": "Comuna 6 - Doce de Octubre",
+    "neighborhood": "Pedregal"
+}]
